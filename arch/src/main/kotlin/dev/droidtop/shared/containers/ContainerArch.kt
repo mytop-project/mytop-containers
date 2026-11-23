@@ -29,7 +29,7 @@ enum class ContainerArch(
 
     /**
      * Whether a program of this architecture runs on a [host] without a translator: the same architecture, or 32-bit
-     * x86 on an x86_64 host. 32-bit Arm is not one of droidtop's architectures (Droidtop/tracker#646).
+     * x86 on an x86_64 host. 32-bit Arm is not one of droidtop's architectures (mytop-project/tracker#646).
      */
     fun runsNativelyOn(host: ContainerArch): Boolean = this == host || (this == X86 && host == X86_64)
 

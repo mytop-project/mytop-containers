@@ -1,4 +1,4 @@
-rootProject.name = "lib-containers"
+rootProject.name = "mytop-containers"
 
 pluginManagement {
     repositories {
